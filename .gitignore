@@ -1,0 +1,32 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Fichiers de configuration sensibles
+.env.dev
+.env.local
+.env.prod
+.editorconfig
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.cache
+
+# PDF de documentation (pas nécessaire sur GitHub)
+*.pdf
+
+# Dossier GitHub caché (si tu veux l'exclure)
+.github/
+
+# Si tu utilises Composer plus tard
+vendor/
+composer.lock
+
+# Dossiers temporaires PHP
+*.cache
+sessions/
+tmp/

@@ -1,0 +1,38 @@
+.article-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.article-image img {
+    transition: transform 0.4s ease;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+/* Cadre blanc avec marges internes */
+.article-image::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;  /* Réduit à 90% pour décoller des bords */
+    height: 90%;
+    border: 0.188rem solid white;
+    border-radius: 0.5rem;
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    z-index: 2;
+    pointer-events: none;
+}
+ 
+.article:hover .article-image::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
