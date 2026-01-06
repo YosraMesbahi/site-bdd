@@ -1,18 +1,20 @@
-# site-statique-mmi
-SAÉ 1.05 : Produire un site web statique pour présenter le BUT MMI de l'IUT de Cergy-Pontoise
+# site-bdd
+SAE 203 : Site web avec une gestion de back-office
 
 ## 📌 Description
 Projet réalisé dans du BUT MMI.
-L'objectif primaire du site est  de présenter de façon détaillée les aspects de la formation du parcours MMI aux lycéens qui sont potentiellement intéressés à poursuivre dans le parcours BUT MMI de l’IUT CYU. Le site doit aussi donner la possibilité de contacter l'administration via un formulaire. 
+L'objectif du site est d'améliorer les fonctionnalités du site réalisé au premier semestre.
+Cette fois ci, le back-office du site doit être gére grâce aux opérations fondamentales de gestion de donneés : Create, Read, Update, Delete. 
 
 ## 🛠️ Technologies utilisées
 - HTML
 - CSS
 - PHP
+- MySQL 
 
 ## 🌐 Hébergement 
 - AlwaysData
 
 ## ⛓️‍💥 Lien vers le site :  
-https://mesbahi.alwaysdata.net/Semestre-1%20/SAE-105/SITE-WEB-BUT-MMI/index.php 
+https://glowcom.alwaysdata.net/SAE-203/DanYellow-cours-main-integration/code/index.php
 
